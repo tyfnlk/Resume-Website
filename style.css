@@ -1,0 +1,191 @@
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+   
+}
+.mainContent{
+    background-color: honeydew;
+}
+h2{
+    padding: 30px 0px 0px 0px;
+}
+hr{
+    margin: 0px 0px 30px 0px;
+}
+.container{
+    display:grid;
+}
+/* SIDE NAV BAR*/
+.headshot{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    width:80%;
+    margin: auto;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.wrap{
+    display: flex;
+    position: relative;
+   
+}
+.wrap .sidenav{
+    position:fixed;
+    width: 200px;
+    height: 100%;
+    background: navy;
+}
+
+.wrap .sidenav h2{
+    color:white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.wrap .sidenav ul li{
+    padding-top: 20%;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    justify-content: end;
+    border-bottom: 1px;
+    border-top: 1 px;
+    color: whitesmoke
+}
+.wrap .sidenav ul li a{
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    justify-content: center;
+    text-decoration: none;
+}
+.wrap .sidenav ul li:hover{
+    letter-spacing: 2px;
+    transition-timing-function: ease-in-out;
+    transition-duration: .2s;
+    color:black;
+    background-color:darkcyan;
+    border-radius: 2%;
+
+}
+
+
+
+/* main content*/
+.mainContent{
+    padding-left: 200px;
+}
+/* titles of sections */
+.mainContent h1{
+    margin: 0% 10% 0% 10%;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(101, 180, 233);
+    border-radius: 4%;
+    border-style: dashed;
+    border-width: 2px;
+    border-color: springgreen;
+}
+table{
+    
+    border: solid 1pt black;
+    border-collapse: collapse;
+    border-spacing: 10pt;
+}
+td, th{
+    padding: 2% 10px 2% 10px;
+    border: solid 1pt black;
+    border-collapse: collapse;
+    border-spacing: 10pt;
+
+}
+th{
+    padding: 1% 10px 1% 10px;
+    border: solid 1pt black;
+    border-collapse: collapse;
+    border-spacing: 10pt;
+
+}
+td h3{
+    padding-top: 20px;
+    padding-top: 10px;
+}
+.workExperience{
+    display: flex;
+    flex-direction: column;
+}
+.workInfo{
+    border: none;
+    border-collapse: collapse;
+    border-spacing: 10pt;
+}
+.workInfo td{
+    border: none;
+}
+.workExperience li{
+    margin: 0% 0% 0% 5%;
+    list-style: unset;
+}
+
+
+.meta{
+   justify-content: right;
+
+
+}
+article{
+    display: flex;
+    margin: 5% 10% 5% 10%;
+    flex-direction: column;
+
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.photograph img{
+    display: flex;
+    justify-content: center;
+    height:auto;
+    width:70%;
+    margin: auto;
+
+}
+.photograph{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color:black;
+    text-align: center;
+
+}
+.imageName{
+    display: flex;
+    justify-content: center;
+} 
+.imageDesc{
+    padding: 2% 10% 2% 10%;
+
+    color: black;
+    
+}
+#contact, h3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+}
